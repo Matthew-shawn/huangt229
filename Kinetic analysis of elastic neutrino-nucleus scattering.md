@@ -50,14 +50,14 @@ P^{\prime}_{\nu}=\frac{p_{\nu}^{2}+MP_{\nu}-P_{A}P_{\nu}·cos\theta}{P_{\nu}+M}
 \end{equation}
 $$
 与[(3)](###Conservation of momentum)式联立解有
-$$
+$
 \begin{equation}
 \begin{aligned}
-P_{A}^{2}[(P_{\nu}+M)^{2}-P_{\nu}^{2}·cos^{2}\theta] &= 2P_{\nu}P_{A}M(M+P_{\nu})·cos\theta \\
+P_{A}^{2}((P_{\nu}+M)^{2}-P_{\nu}^{2}·cos^{2}\theta) &= 2P_{\nu}P_{A}M(M+P_{\nu})·cos\theta \\
 P_{A}&=\frac{2MP_{\nu}(M+P_{\nu})·cos\theta}{(M+P_{\nu})^{2}-P_{\nu}^{2}·cos^{2}\theta} 
 \end{aligned}
 \end{equation}
-$$
+$
 
 又由
 $$
