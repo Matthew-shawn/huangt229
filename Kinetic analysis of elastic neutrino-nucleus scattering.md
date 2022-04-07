@@ -28,7 +28,7 @@ $$
 P_{\nu} = P_{A}·cos\theta + P^{\prime}_{\nu}·sin\varphi
 \end{equation}
 $$
-利用[(1)](###Conservation of momentum)式和简单的三角函数关系，我们可以得到下式
+利用(1)式和简单的三角函数关系，我们可以得到下式
 $$
 P_{\nu}^{2}+P_{A}^{2}-2P_{\nu}P_{A}cos{\theta}=P^{\prime2}_{\nu}
 $$
@@ -48,7 +48,7 @@ $$
 P^{\prime}_{\nu}=\frac{p_{\nu}^{2}+MP_{\nu}-P_{A}P_{\nu}·cos\theta}{P_{\nu}+M} 
 \end{equation}
 $$
-与[(3)](###Conservation of momentum)式联立解有
+与(3)式联立解有
 $$
 \begin{equation}
 \begin{aligned}
