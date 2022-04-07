@@ -25,8 +25,7 @@ $$
 
 $$
 \begin{equation}
-P_{\nu} = P_{A}·cos\theta + P^{\prime}_{\nu}·sin\varphi 
-
+P_{\nu} = P_{A}·cos\theta + P^{\prime}_{\nu}·sin\varphi
 \end{equation}
 $$
 利用[(1)](###Conservation of momentum)式和简单的三角函数关系，我们可以得到下式
@@ -106,7 +105,7 @@ $$
 
 
 [^1]:We adopt natural unit here.
-[^2]:其中$E_{A}=\sqrt{M^{2}+P_{A}^{2}}$​，$M$​为核子质量
-[^3]:这里中微子质量远小于我们分析的任一具有质量量纲的量，故此处分析忽略中微子质量$m_{\nu}$​​
+[^2]:其中$E_{A}=\sqrt{M^{2}+P_{A}^{2}}$，$M$为核子质量
+[^3]:这里中微子质量远小于我们分析的任一具有质量量纲的量，故此处分析忽略中微子质量$m_{\nu}$
 [^4]:这里我们会最后发现最后是和$E_{\nu}、M、cos\theta$的关系
 
