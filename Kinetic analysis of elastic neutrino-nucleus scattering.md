@@ -4,7 +4,8 @@
 
 ## Kinetic process image
 
-![n-nS](C:\Users\11717\Desktop\n-nS.png)
+![n-nS](https://user-images.githubusercontent.com/61552940/162331057-200e9fd4-0431-460b-8eb8-b7d2c309efc1.png)
+
 
 以上就是动力学过程简图[^2][^3]
 
