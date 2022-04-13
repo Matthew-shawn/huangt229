@@ -49,7 +49,11 @@ double_t dsigmadEantinue(double_t Enu)
 double_t reactor()
 {
     struct datapoint a;
-    for (int i = 11; i < 30;i++)
+    for(int i = 0; i < 11; i++)
+    {
+        a.y[i] = n_f/(4*3.14159*pow(d,2))*a.y[i];
+    }
+    for (int i = 11; i < 30; i++)
     {
         a.y[i] = dsigmadEantinue(a.x[i]);
     }
