@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include "dPhidEantinue.h"
+#include "globalv.h"
 using namespace std;
 /*dphidEantinue under 2Mev*/
 struct datapoint
@@ -410,6 +410,8 @@ struct datapoint
 3.24191E+11
     };
 };
+double_t dsigmaSMdEr(double_t Enu, double_t Er, double_t Q);
+double_t Fq(double_t Q);
 double_t imitate()
 {
     struct datapoint a;
@@ -426,7 +428,21 @@ double_t imitate()
     gr1->GetXaxis()->CenterTitle();
     gr1->GetYaxis()->CenterTitle();
     // draw the graph with the axis,contineous line, and put
-    c2->cd(4);
+    c1->cd(4);
     gr1->Draw("AL");
     return 0;
+}
+double_t dsigmaSMdEr(double_t Enu, double_t Er, double_t Q)
+{
+    double_t Qw = Nn - (1 - 4*sin2TW)*Np;
+    double_t M = (Nn + Np)*Mamu;
+    double_t result = (pow(GF,2)/(4*3.14159))*pow(Qw,2)*(1-(M*Er/(2*pow(Enu,2)))-(Er/Enu)+pow(Er,2)/(2*pow(Enu,2)))*M*Fq(Q);
+    return result;
+}
+double_t Fq(double_t Q)
+{
+    double_t rou0 = 3/(pow(r0,3));
+    double_t R = r0*pow(Np+Nn,1/3);
+    double_t result = (rou0/(28*pow(Q,3)))*(sin(Q*R/hbar)-(Q*R/hbar)*cos(Q*R/hbar))*(1/(1+pow(a*Q/hbar,2)));
+    return result; 
 }
