@@ -412,6 +412,7 @@ struct datapoint
 };
 double_t dsigmaSMdEr(double_t Enu, double_t Er, double_t Q);
 double_t Fq(double_t Q);
+double_t dRdEr(double_t Enu,double_t Er, double_t Q);
 double_t imitate()
 {
     struct datapoint a;
@@ -430,6 +431,7 @@ double_t imitate()
     // draw the graph with the axis,contineous line, and put
     c1->cd(4);
     gr1->Draw("AL");
+    double_t Nt = 1.7*Na;
     return 0;
 }
 double_t dsigmaSMdEr(double_t Enu, double_t Er, double_t Q)
