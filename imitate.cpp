@@ -5,10 +5,7 @@ using namespace std;
 /*dphidEantinue under 2Mev*/
 struct datapoint
 {
-    double_t x[400]=
-    {
-        0
-    };
+    double_t x[400];
     double_t y[400]=
     {
 3.11513E+11,
@@ -421,7 +418,7 @@ double_t imitate()
         a.x[i] = 0.01*(i+1);
     }
     //create graph
-    TGraph *gr1 = new TGraph(30,a.x,a.y);
+    TGraph *gr1 = new TGraph(400,a.x,a.y);
     TCanvas *c1 = new TCanvas("c1","Antineutrino flux expected at the CONNIE detector",
     800,600,800,600);
     gr1->GetXaxis()->SetTitle("Eantinue(MeV)");
